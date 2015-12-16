@@ -1,0 +1,25 @@
+* generate_playlist(type, query)
+  
+  Inputs
+  ------
+  Type — 'emoji' or 'song'
+  Query — If type is 'emoji': mood
+          If type is 'song': id
+  
+  Outputs
+  -------
+  (For now)
+  For every song chosen, call
+  display_song_in_playlist(song.artist, song.title, song.preview_url, song.album, song.album.cover, song.year)
+  
+* search_songs(query)
+  
+  Inputs
+  ------
+  query — user query
+  
+  Outputs
+  -------
+  For every song found, call 
+  display_search_songs(song.artist, song.title, song.preview_url, song.album, song.album.cover, song.year)
+  
